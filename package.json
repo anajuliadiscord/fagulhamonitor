@@ -1,7 +1,7 @@
 {
   "name": "Fagulha Monitor",
   "version": "0.0.1",
-  "description": "Bot de autoping que ajuda bots ficarem online por 24h.",
+  "description": "Bot de autoping que ajuda bots ficarem online por 24h,fagulha monitor.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
