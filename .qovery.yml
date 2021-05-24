@@ -1,0 +1,18 @@
+---
+application:
+  name: "fagulhamonitor"
+  project: "Lalalallala"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "mongodb"
+  version: "4.4"
+- type: "MONGODB"
+  name: "Mongosse"
+  version: "4.4"
+routers:
+- name: "main-fagulhamonitor"
+  routes:
+  - application_name: "fagulhamonitor"
+    paths:
+    - "/*"
